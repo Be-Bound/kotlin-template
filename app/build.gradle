@@ -32,13 +32,13 @@ android {
     kapt {
         generateStubs = true
     }
-    buildToolsVersion '28.0.2'
+    buildToolsVersion '28.0.3'
 }
 
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     // Be-App SDK
-    implementation 'com.be-bound:sdk:2.5.0-BETA'
+    implementation 'com.be-bound:sdk:2.5.2'
 
     // Kotlin
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
